@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/React_Study/static/js/main.fedaa36e.js",
-    "index.html": "/React_Study/index.html",
-    "main.fedaa36e.js.map": "/React_Study/static/js/main.fedaa36e.js.map"
+    "main.js": "/React_Study/movie_app/static/js/main.fedaa36e.js",
+    "index.html": "/React_Study/movie_app/index.html",
+    "main.fedaa36e.js.map": "/React_Study/movie_app/static/js/main.fedaa36e.js.map"
   },
   "entrypoints": [
     "static/js/main.fedaa36e.js"
