@@ -1,0 +1,67 @@
+.App {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  border: thick double rgb(248, 167, 61);
+}
+.App h1 {
+  text-align: center;
+  background-color: rgb(248, 167, 61);
+  margin-top: 0;
+}
+
+.App form {
+  text-align: center;
+}
+
+.App .formForm {
+  display: flex;
+  box-shadow: none;
+  padding: 0;
+}
+
+.App form input {
+  border: none;
+  border-bottom: 5px solid rgb(248, 167, 61);
+  width: 60%;
+}
+
+.App form input:focus {
+  color: black;
+  outline: none;
+}
+
+.App form .todo-button {
+  border: none;
+  padding: 10px;
+  background-color: rgb(248, 167, 61);
+  color: white;
+  border-radius: 50%;
+}
+.App form .todo-button:hover {
+  cursor: pointer;
+}
+.App .todo {
+  width: 100%;
+  display: flex;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+.App .todo li {
+  font-weight: bold;
+  list-style: circle;
+}
+.App .todo li:hover {
+  cursor: pointer;
+}
+.App .todo .clicked {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+.App .todo .delete-btn {
+  border: none;
+  background-color: white;
+}
+.App .todo .delete-btn:hover {
+  cursor: pointer;
+}
