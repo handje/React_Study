@@ -65,3 +65,6 @@
 .App .todo .delete-btn:hover {
   cursor: pointer;
 }
+.App .todo .completed{
+  text-decoration: line-through red 2px;
+}
